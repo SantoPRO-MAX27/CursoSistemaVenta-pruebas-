@@ -79,7 +79,6 @@ Si necesita ayuda, utilice los canales oficiales del proyecto:
 | Medio | Detalle |
 |---|---|
 | Correo de soporte | Tiago.l.jackson@gmail.com |
-| Teléfono | Solicitar al equipo responsable de la institución |
 | Portal de soporte | https://github.com/SantoPRO-MAX27/CursoSistemaVenta-pruebas- |
 
 Para agilizar la atención, incluya en su mensaje:
