@@ -1,10 +1,10 @@
 # Manual de Usuario - Sistema de Ventas
 
-## 8. Seguridad y control de accesos
+## 1. Seguridad y control de accesos
 
 Esta sección explica, de forma práctica, cómo ingresar al sistema y qué opciones verá cada tipo de usuario.
 
-### 8.1 Roles del sistema
+### 1.1 Roles del sistema
 
 El sistema trabaja con dos perfiles principales:
 
@@ -13,7 +13,7 @@ El sistema trabaja con dos perfiles principales:
 | Administrador | Responsable del sistema o del negocio | Configurar el sistema, gestionar usuarios, productos, compras, ventas y reportes |
 | Vendedor | Personal de atención o caja | Registrar ventas, consultar productos y atender clientes |
 
-### 8.2 ¿Cómo iniciar sesión?
+### 1.2 ¿Cómo iniciar sesión?
 
 1. Abra el sistema de ventas.
 2. Ingrese su **usuario** (documento) y **contraseña**.
@@ -25,7 +25,7 @@ Si aparece un mensaje de error:
 - Verifique mayúsculas/minúsculas en la contraseña.
 - Si continúa el problema, comuníquese con el administrador.
 
-### 8.3 Restricción de módulos por tipo de usuario
+### 1.3 Restricción de módulos por tipo de usuario
 
 Después del inicio de sesión, el sistema muestra solo los módulos autorizados para su rol.
 
@@ -36,11 +36,11 @@ Si intenta entrar a una opción no permitida, el sistema bloqueará el acceso.
 
 ---
 
-## 9. Mantenimiento y solución de problemas
+## 2. Mantenimiento y solución de problemas
 
 Esta guía ayuda a resolver incidencias comunes sin procedimientos técnicos complejos.
 
-### 9.1 Errores comunes y solución rápida
+### 2.1 Errores comunes y solución rápida
 
 | Problema observado | Posible causa | ¿Qué hacer? |
 |---|---|---|
@@ -50,7 +50,7 @@ Esta guía ayuda a resolver incidencias comunes sin procedimientos técnicos com
 | No permite guardar una venta | Falta un dato obligatorio | Revise cliente, producto, cantidad y forma de pago antes de guardar |
 | “Acceso denegado” en un módulo | Su rol no tiene permiso | Solicite al administrador la revisión de permisos |
 
-### 9.2 Respaldo de información (administrador)
+### 2.2 Respaldo de información (administrador)
 
 1. Ingrese al sistema con perfil de administrador.
 2. Abra la opción de mantenimiento o respaldo.
@@ -60,7 +60,7 @@ Esta guía ayuda a resolver incidencias comunes sin procedimientos técnicos com
 
 **Recomendación:** Realice respaldos periódicos y guarde una copia en una ubicación segura.
 
-### 9.3 Restauración de información (administrador)
+### 2.3 Restauración de información (administrador)
 
 1. Ingrese con perfil de administrador.
 2. Abra la opción de restauración.
@@ -72,7 +72,7 @@ Esta guía ayuda a resolver incidencias comunes sin procedimientos técnicos com
 
 ---
 
-## 10. Contacto y soporte
+## 3. Contacto y soporte
 
 Si necesita ayuda, utilice los canales oficiales del proyecto:
 
@@ -88,17 +88,16 @@ Para agilizar la atención, incluya en su mensaje:
 - Pasos realizados antes del error.
 - Captura de pantalla (si es posible).
 
-### Recursos adicionales
+### Recursos adicionales para usuarios
 
-1. Documentación de SQL Server Express: https://learn.microsoft.com/es-es/sql/sql-server
-2. Documentación de .NET Framework: https://learn.microsoft.com/es-es/dotnet/framework
-3. iTextSharp: https://itextpdf.com
-4. ClosedXML: https://github.com/ClosedXML/ClosedXML
-5. SQL Server Management Studio: https://aka.ms/ssmsfullsetup
+1. Guía rápida de inicio del sistema (versión interna del proyecto).
+2. Preguntas frecuentes (FAQ) para operaciones de venta y consulta.
+3. Canal de soporte institucional para incidencias de acceso.
+4. Manual visual con capturas de pantalla por módulo.
 
 ---
 
-## 11. Conclusión del manual de usuario
+## 4. Conclusión del manual de usuario
 
 Este manual de usuario tiene como finalidad orientar, de manera clara y sencilla, el uso diario del Sistema de Ventas. Su contenido permite iniciar sesión correctamente, entender qué funciones están disponibles según el rol y resolver incidencias frecuentes con pasos prácticos.
 
